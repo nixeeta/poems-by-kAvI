@@ -1,0 +1,45 @@
+{
+  "name": "kavi-poems",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "@google/generative-ai": "^0.24.1",
+    "@hookform/resolvers": "^5.0.1",
+    "@prisma/client": "^6.8.2",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.49.8",
+    "autoprefixer": "^10.4.21",
+    "firebase": "^11.8.1",
+    "framer-motion": "^12.15.0",
+    "lucide-react": "^0.511.0",
+    "next": "15.3.3",
+    "openai": "^5.0.1",
+    "postcss": "^8.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.4",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "zod": "^3.25.36",
+    "zustand": "^5.0.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.17.52",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "prisma": "^6.8.2",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5"
+  }
+}
