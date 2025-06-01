@@ -2,15 +2,14 @@
 import type { Config } from "tailwindcss";
 
 module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx}", // adjust paths as per your project
-    "./app/**/*.{js,ts,jsx,tsx}"
-  ],
+  darkMode: 'class',
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {},
   },
   plugins: [],
 };
+
 
 
 const config: Config = {
