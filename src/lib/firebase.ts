@@ -4,7 +4,7 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBABn9ksH5OnXX1KHStwyIRcGKPje89_lw",
+  apiKey: "/* Your API Key here */",
   authDomain: "poems-by-kavi.firebaseapp.com",
   projectId: "poems-by-kavi",
   storageBucket: "poems-by-kavi.firebasestorage.app",
